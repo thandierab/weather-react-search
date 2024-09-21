@@ -3,13 +3,15 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import WeatherSearch from "./WeatherSearch.js";
+import WeatherSearch from "./WeatherSearch";
+import Links from "./Links";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
     <WeatherSearch />
+    <Links />
   </React.StrictMode>
 );
 
