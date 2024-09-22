@@ -6,11 +6,14 @@ export default function Links() {
   return (
     <div>
       <p className="links">
-        Coded by Thandie and{" "}
-        <a href="https://github.com/thandierab/weather-react-search">
-          open-sourced
+        <a
+          href="https://github.com/thandierab/weather-react-search"
+          target="blank"
+          title="Github"
+        >
+          Coded
         </a>{" "}
-        on Github.
+        by Thandie R-mane.
       </p>
     </div>
   );
